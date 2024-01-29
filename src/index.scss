@@ -1,0 +1,13 @@
+@import './styles/variables.scss';
+@import './components/atoms/button/src/index';
+@import './components/atoms/upload/src/index';
+@import './components/atoms/text-input/src/index';
+@import './components/atoms/card/src/index';
+@import './components/atoms/image/src/index';
+@import './components/molecules/form/src/index';
+@import './components/organisms/results-grid/src/index';
+@import './components/templates/search-pet/src/index';
+
+body {
+  margin: 0;
+}

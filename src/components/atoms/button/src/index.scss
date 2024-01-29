@@ -1,0 +1,12 @@
+@import './styles/desktop';
+@import './styles/mobile';
+
+.button {
+    position: relative;
+    width: 150px;
+    height: 48px;
+    background-color: $color-b;
+    border-radius: $button-border-radius;
+    border-style: none;
+    color: $color-d;
+}

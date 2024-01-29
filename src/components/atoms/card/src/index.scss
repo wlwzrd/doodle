@@ -1,0 +1,44 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+    min-height: 200px;
+    border-radius: $card-border-radius;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+
+    &:hover {
+        background-image: radial-gradient(circle at 50% 50%, $color-b, $color-b);
+        color: $color-d;
+        transition: inherit;
+
+
+        &>* :not(button) {
+            background-color: $color-d;
+        }
+
+        &>button {
+            background-color: $color-d;
+            color: $color-a;
+
+            &::after {
+                opacity: 0;
+                background-color: linear-gradient(to right, #FF2A67, #FF5D3A);
+                transition: opacity.3s ease-in-out;
+            }
+        }
+    }
+
+    &--center {
+        align-items: center;
+    }
+
+    &--left {
+        align-items: flex-start;
+    }
+
+    &--right {
+        align-items: flex-end;
+    }
+}
