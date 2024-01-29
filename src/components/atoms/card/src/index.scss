@@ -25,7 +25,7 @@
             &::after {
                 opacity: 0;
                 background-color: linear-gradient(to right, #FF2A67, #FF5D3A);
-                transition: opacity.3s ease-in-out;
+                transition: opacity 0.3s ease-in-out;
             }
         }
     }
