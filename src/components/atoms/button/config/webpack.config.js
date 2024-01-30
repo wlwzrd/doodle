@@ -42,7 +42,7 @@ module.exports = {
         },
     },
     resolve: {
-        extensions: ['.js', '.jsx', '.css'],
+        extensions: ['.js', '.jsx', '.css','.scss'],
         alias: {
             react: path.resolve(__dirname, './node_modules/react'),
             'prop-types': path.resolve(

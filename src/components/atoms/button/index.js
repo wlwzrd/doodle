@@ -1,5 +1,3 @@
 const Button = require('./src/index');
 
-module.exports = {
-    Button,
-};
+module.exports = Button;

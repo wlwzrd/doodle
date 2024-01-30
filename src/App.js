@@ -1,5 +1,5 @@
 import './App.scss';
-import SearchPet from './components/templates/search-pet/src';
+import SearchPet from '@doodle/search-pet';
 
 function App() {
 
