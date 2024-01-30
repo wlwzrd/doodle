@@ -5,10 +5,10 @@ import Button from '../../../atoms/button';
 import ResultsGrid from '../../../organisms/results-grid/src';
 
 import Skeleton from 'react-loading-skeleton';
-import 'react-loading-skeleton/dist/skeleton.css';
 import resultsMock from '../mocks/results-mock';
 import predictService from '../services/predictService';
 import { useState } from 'react';
+
 
 const SearchPet = (props) => {
 
